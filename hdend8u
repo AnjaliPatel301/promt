@@ -1,0 +1,136 @@
+Design a modern dashboard web app UI with a clean layout and blue-700 color theme.
+
+🔐 Authentication
+
+Create a Login Page
+
+Fields: Email, Password
+
+Button: Login
+
+After login, user goes to dashboard
+
+Include Logout option in top navbar
+
+📊 Main Layout
+
+Left side: Sidebar navigation
+
+Top: Header/Navbar
+
+Main area: Dynamic content based on selected section
+
+📁 Sidebar Sections
+1. Dashboard
+
+Simple overview page with stats cards (placeholder data)
+
+2. Scraping
+
+Add a Dropdown with 2 options:
+
+Phone Number
+
+Email + Phone
+
+When user selects any option:
+
+Show Add Button
+
+On clicking Add Button:
+
+Open form with fields:
+
+Location
+
+Target Audience
+
+After adding:
+
+Display a Table with columns:
+
+Location
+
+Target Audience
+
+Google Sheet (static link)
+
+3. Sending Email
+
+Show Add Form with fields:
+
+Location
+
+Target Audience
+
+Services to Pitch
+
+Google Sheet (static link)
+
+On submit:
+
+Data should appear in a table/list
+
+4. Review QR
+
+Show a QR Scanner UI
+
+Allow image upload or camera scan (UI only)
+
+5. Telegram Bot
+
+Show a simple section with:
+
+Input field for Telegram Bot Link
+
+Save button
+
+6. Telegram AI Bot
+
+Same as above:
+
+Input field for link
+
+Save button
+
+7. WhatsApp Automation
+
+Simple empty/placeholder section
+
+8. Social Media Marketing (SMM)
+
+Fields:
+
+Google Sheet Link
+
+Instagram Link
+
+Facebook Link
+
+LinkedIn Link
+
+9. Real Estate
+
+Simple section with:
+
+One or more links only
+
+🎨 Design Requirements
+
+Use Tailwind CSS
+
+Theme: Blue-700 primary color
+
+Clean spacing, modern cards, rounded corners
+
+Responsive design (mobile + desktop)
+
+Use icons in sidebar
+
+⚙️ Behavior
+
+Forms should update UI instantly (frontend only, no backend needed)
+
+Use mock/static data where required
+
+Tables should be styled and readable
